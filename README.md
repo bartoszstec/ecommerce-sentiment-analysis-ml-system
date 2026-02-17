@@ -6,7 +6,7 @@ Shoop is a web application that simulates an e-commerce platform with all its co
 It features a custom classification model that analyzes user reviews and assigns one of three sentiment ratings: positive, neutral, or negative making process of adding comment automated. The model was trained on Polish reviews from *Opineo.pl* and reviews generated using *LLM-ChatGPT*. Used data is therefore hybrid. It classifies comments into three classes with **85% accuracy**. The training process was performed using the scikit-learn and spaCy libraries. The data was manually prepared, cleaned and balanced.
 
 ## Short demonstration video of classification model feature
-📽️ [See Demo](https://drive.google.com/file/d/1FEYMIk2cYuBNileBWR4x1U1rq4PU-IPa/view?usp=drive_link)
+📽️ [See Demo](github_assets/demo.mp4)
 
 ## Features
 - User account registration
@@ -20,7 +20,7 @@ It features a custom classification model that analyzes user reviews and assigns
 
 ## 🏗 System Architecture
 The diagram below presents the high-level architecture of the Shoop e-commerce platform:
-![Container Diagram](DiagramKontenerów.png)
+![Container Diagram](github_assets/DiagramKontenerów.png)
 To keep the project maintainable and scalable, the application is split into multiple independent modules (Flask blueprints). Each module encapsulates a specific domain of the system.
 
 ### Backend Modules (Blueprints)
